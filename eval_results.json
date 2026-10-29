@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "category_expected": "work",
+    "category_predicted": "work",
+    "category_ok": true,
+    "priority_expected": "high",
+    "priority_predicted": "high",
+    "priority_ok": true
+  },
+  {
+    "id": 2,
+    "category_expected": "personal",
+    "category_predicted": "personal",
+    "category_ok": true,
+    "priority_expected": "normal",
+    "priority_predicted": "normal",
+    "priority_ok": true
+  },
+  {
+    "id": 3,
+    "category_expected": "work",
+    "category_predicted": "work",
+    "category_ok": true,
+    "priority_expected": "normal",
+    "priority_predicted": "normal",
+    "priority_ok": true
+  },
+  {
+    "id": 4,
+    "category_expected": "work",
+    "category_predicted": "work",
+    "category_ok": true,
+    "priority_expected": "high",
+    "priority_predicted": "high",
+    "priority_ok": true
+  },
+  {
+    "id": 5,
+    "category_expected": "personal",
+    "category_predicted": "personal",
+    "category_ok": true,
+    "priority_expected": "normal",
+    "priority_predicted": "normal",
+    "priority_ok": true
+  },
+  {
+    "id": 6,
+    "category_expected": "work",
+    "category_predicted": "work",
+    "category_ok": true,
+    "priority_expected": "normal",
+    "priority_predicted": "normal",
+    "priority_ok": true
+  }
+]

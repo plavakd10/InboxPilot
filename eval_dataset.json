@@ -1,0 +1,51 @@
+
+[
+  {
+    "id": 1,
+    "sender": "ops@example.com",
+    "subject": "Production payment outage",
+    "body": "The payment system is down. Customers cannot complete transactions. Investigate immediately.",
+    "expected_category": "work",
+    "expected_priority": "high"
+  },
+  {
+    "id": 2,
+    "sender": "friend@example.com",
+    "subject": "Weekend coffee",
+    "body": "Want to grab coffee on Saturday afternoon? No rush to reply.",
+    "expected_category": "personal",
+    "expected_priority": "normal"
+  },
+  {
+    "id": 3,
+    "sender": "manager@example.com",
+    "subject": "Project meeting tomorrow",
+    "body": "Please join the project meeting tomorrow at 10 AM to discuss progress.",
+    "expected_category": "work",
+    "expected_priority": "normal"
+  },
+  {
+    "id": 4,
+    "sender": "security@example.com",
+    "subject": "Urgent security incident",
+    "body": "We detected unauthorized access to a production system. Please investigate immediately.",
+    "expected_category": "work",
+    "expected_priority": "high"
+  },
+  {
+    "id": 5,
+    "sender": "sister@example.com",
+    "subject": "Family dinner",
+    "body": "Are you free for dinner with the family this Sunday?",
+    "expected_category": "personal",
+    "expected_priority": "normal"
+  },
+  {
+    "id": 6,
+    "sender": "colleague@example.com",
+    "subject": "Issue is no longer urgent",
+    "body": "The production incident has been resolved. There is no longer any urgency, and customers can transact normally.",
+    "expected_category": "work",
+    "expected_priority": "normal"
+  }
+]
