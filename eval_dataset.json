@@ -47,5 +47,53 @@
     "body": "The production incident has been resolved. There is no longer any urgency, and customers can transact normally.",
     "expected_category": "work",
     "expected_priority": "normal"
+  },
+   {
+    "id": 7,
+    "sender": "manager@example.com",
+    "subject": "Not urgent: project update",
+    "body": "The project is progressing normally. This is not urgent and can wait until next week.",
+    "expected_category": "work",
+    "expected_priority": "normal"
+  },
+  {
+    "id": 8,
+    "sender": "security@example.com",
+    "subject": "Immediate security incident",
+    "body": "We detected unauthorized access to a production account. Investigate immediately.",
+    "expected_category": "work",
+    "expected_priority": "high"
+  },
+  {
+    "id": 9,
+    "sender": "friend@example.com",
+    "subject": "URGENT: Birthday plans",
+    "body": "Urgent question: which restaurant should we choose for my birthday dinner next month?",
+    "expected_category": "personal",
+    "expected_priority": "normal"
+  },
+  {
+    "id": 10,
+    "sender": "support@example.com",
+    "subject": "Customer payment failure",
+    "body": "One customer reported a payment failure yesterday. The issue has been resolved and no action is needed.",
+    "expected_category": "work",
+    "expected_priority": "normal"
+  },
+  {
+    "id": 11,
+    "sender": "colleague@example.com",
+    "subject": "Project meeting cancelled",
+    "body": "Today's project meeting has been cancelled. There is no action required.",
+    "expected_category": "work",
+    "expected_priority": "normal"
+  },
+  {
+    "id": 12,
+    "sender": "family@example.com",
+    "subject": "Please call me",
+    "body": "When you have time, please call me this evening. Nothing urgent.",
+    "expected_category": "personal",
+    "expected_priority": "normal"
   }
 ]

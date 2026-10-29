@@ -1,56 +1,242 @@
 [
   {
     "id": 1,
+    "subject": "Production payment outage",
     "category_expected": "work",
     "category_predicted": "work",
     "category_ok": true,
     "priority_expected": "high",
     "priority_predicted": "high",
-    "priority_ok": true
+    "priority_ok": true,
+    "summary": "The payment system is currently down, preventing customers from completing transactions. Immediate investigation is required.",
+    "status": "success",
+    "metrics": {
+      "model": "gpt-4o-mini",
+      "latency_ms": 2543.95,
+      "input_tokens": 544,
+      "output_tokens": 36,
+      "estimated_cost": 0.00010319999999999999,
+      "error": null
+    }
   },
   {
     "id": 2,
+    "subject": "Weekend coffee",
     "category_expected": "personal",
     "category_predicted": "personal",
     "category_ok": true,
     "priority_expected": "normal",
     "priority_predicted": "normal",
-    "priority_ok": true
+    "priority_ok": true,
+    "summary": "A friend is inviting you to grab coffee on Saturday afternoon and there's no rush to respond.",
+    "status": "success",
+    "metrics": {
+      "model": "gpt-4o-mini",
+      "latency_ms": 1238.44,
+      "input_tokens": 541,
+      "output_tokens": 35,
+      "estimated_cost": 0.00010214999999999999,
+      "error": null
+    }
   },
   {
     "id": 3,
+    "subject": "Project meeting tomorrow",
     "category_expected": "work",
     "category_predicted": "work",
     "category_ok": true,
     "priority_expected": "normal",
     "priority_predicted": "normal",
-    "priority_ok": true
+    "priority_ok": true,
+    "summary": "There is a project meeting scheduled for tomorrow at 10 AM to discuss progress.",
+    "status": "success",
+    "metrics": {
+      "model": "gpt-4o-mini",
+      "latency_ms": 1188.36,
+      "input_tokens": 543,
+      "output_tokens": 34,
+      "estimated_cost": 0.00010185,
+      "error": null
+    }
   },
   {
     "id": 4,
+    "subject": "Urgent security incident",
     "category_expected": "work",
     "category_predicted": "work",
     "category_ok": true,
     "priority_expected": "high",
     "priority_predicted": "high",
-    "priority_ok": true
+    "priority_ok": true,
+    "summary": "There has been unauthorized access to a production system, and immediate investigation is required.",
+    "status": "success",
+    "metrics": {
+      "model": "gpt-4o-mini",
+      "latency_ms": 1103.9,
+      "input_tokens": 543,
+      "output_tokens": 35,
+      "estimated_cost": 0.00010245,
+      "error": null
+    }
   },
   {
     "id": 5,
+    "subject": "Family dinner",
     "category_expected": "personal",
     "category_predicted": "personal",
     "category_ok": true,
     "priority_expected": "normal",
     "priority_predicted": "normal",
-    "priority_ok": true
+    "priority_ok": true,
+    "summary": "The email is an invitation to a family dinner scheduled for this Sunday.",
+    "status": "success",
+    "metrics": {
+      "model": "gpt-4o-mini",
+      "latency_ms": 1226.27,
+      "input_tokens": 539,
+      "output_tokens": 31,
+      "estimated_cost": 9.944999999999999e-05,
+      "error": null
+    }
   },
   {
     "id": 6,
+    "subject": "Issue is no longer urgent",
     "category_expected": "work",
     "category_predicted": "work",
     "category_ok": true,
     "priority_expected": "normal",
     "priority_predicted": "normal",
-    "priority_ok": true
+    "priority_ok": true,
+    "summary": "The production incident has been resolved and customers can now transact normally.",
+    "status": "success",
+    "metrics": {
+      "model": "gpt-4o-mini",
+      "latency_ms": 998.55,
+      "input_tokens": 551,
+      "output_tokens": 33,
+      "estimated_cost": 0.00010244999999999998,
+      "error": null
+    }
+  },
+  {
+    "id": 7,
+    "subject": "Not urgent: project update",
+    "category_expected": "work",
+    "category_predicted": "work",
+    "category_ok": true,
+    "priority_expected": "normal",
+    "priority_predicted": "normal",
+    "priority_ok": true,
+    "summary": "The project is progressing normally and does not require immediate attention; it can wait until next week.",
+    "status": "success",
+    "metrics": {
+      "model": "gpt-4o-mini",
+      "latency_ms": 1137.46,
+      "input_tokens": 548,
+      "output_tokens": 39,
+      "estimated_cost": 0.00010559999999999999,
+      "error": null
+    }
+  },
+  {
+    "id": 8,
+    "subject": "Immediate security incident",
+    "category_expected": "work",
+    "category_predicted": "work",
+    "category_ok": true,
+    "priority_expected": "high",
+    "priority_predicted": "high",
+    "priority_ok": true,
+    "summary": "There has been unauthorized access to a production account, and immediate investigation is required.",
+    "status": "success",
+    "metrics": {
+      "model": "gpt-4o-mini",
+      "latency_ms": 1129.07,
+      "input_tokens": 542,
+      "output_tokens": 34,
+      "estimated_cost": 0.00010169999999999999,
+      "error": null
+    }
+  },
+  {
+    "id": 9,
+    "subject": "URGENT: Birthday plans",
+    "category_expected": "personal",
+    "category_predicted": "personal",
+    "category_ok": true,
+    "priority_expected": "normal",
+    "priority_predicted": "normal",
+    "priority_ok": true,
+    "summary": "The sender is asking for help in choosing a restaurant for their birthday dinner next month.",
+    "status": "success",
+    "metrics": {
+      "model": "gpt-4o-mini",
+      "latency_ms": 1375.06,
+      "input_tokens": 548,
+      "output_tokens": 37,
+      "estimated_cost": 0.0001044,
+      "error": null
+    }
+  },
+  {
+    "id": 10,
+    "subject": "Customer payment failure",
+    "category_expected": "work",
+    "category_predicted": "work",
+    "category_ok": true,
+    "priority_expected": "normal",
+    "priority_predicted": "normal",
+    "priority_ok": true,
+    "summary": "A customer reported a payment failure which has since been resolved, and no action is needed.",
+    "status": "success",
+    "metrics": {
+      "model": "gpt-4o-mini",
+      "latency_ms": 1178.53,
+      "input_tokens": 548,
+      "output_tokens": 36,
+      "estimated_cost": 0.0001038,
+      "error": null
+    }
+  },
+  {
+    "id": 11,
+    "subject": "Project meeting cancelled",
+    "category_expected": "work",
+    "category_predicted": "work",
+    "category_ok": true,
+    "priority_expected": "normal",
+    "priority_predicted": "normal",
+    "priority_ok": true,
+    "summary": "The project meeting scheduled for today has been cancelled, and no action is required.",
+    "status": "success",
+    "metrics": {
+      "model": "gpt-4o-mini",
+      "latency_ms": 1204.01,
+      "input_tokens": 542,
+      "output_tokens": 34,
+      "estimated_cost": 0.00010169999999999999,
+      "error": null
+    }
+  },
+  {
+    "id": 12,
+    "subject": "Please call me",
+    "category_expected": "personal",
+    "category_predicted": "personal",
+    "category_ok": true,
+    "priority_expected": "normal",
+    "priority_predicted": "normal",
+    "priority_ok": true,
+    "summary": "A family member requests a call this evening but states it is not urgent.",
+    "status": "success",
+    "metrics": {
+      "model": "gpt-4o-mini",
+      "latency_ms": 1044.41,
+      "input_tokens": 543,
+      "output_tokens": 33,
+      "estimated_cost": 0.00010125,
+      "error": null
+    }
   }
 ]
